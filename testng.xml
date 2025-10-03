@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.framework.selenium.testcase.ManifestCheck.TCP001_Verify_CI_Flag_type_as_Y_for_Shipment"/>
+      <class name="com.framework.selenium.testcase.ManifestCheck.TCP002_Verify_the_document_is_uploaded_image_viewer"/>
+      <class name="com.framework.selenium.testcase.ManifestCheck.TCP003_5_7_8_Ability_Edit_Shipment_Override"/>
+      <class name="com.framework.selenium.testcase.ManifestCheck.TCP006_Modify_Clearance_Scheme"/>
+      <class name="com.framework.selenium.testcase.ManifestCheck.TCP09_15_sanity_rule_fail_scan_code_not_found"/>      
+      <class name="com.framework.selenium.testcase.ManifestCheck.TCP016_Unassign_User_Assignment"/>
+      <class name="com.framework.selenium.testcase.ManifestCheck.TC017_Mass_Release_Shipment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
